@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+.container {
+    width: 550px;
+    height: 720px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 16px 6px rgba(34, 60, 80, 0.2);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -60px;
+    left: 36%;
+    border: 5px solid white;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    text-align: center;
+}
+
+.student {
+    background-color: rgb(204, 203, 203);
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.dollar {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    background-color: rgb(204, 203, 203);
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.pas1 {
+    position: absolute;
+    top: 40px;
+    left: 15%;
+}
+
+.pas2 {
+    position: absolute;
+    top: 40px;
+    right: 15%;
+}
+
+section {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: -80px;
+}
+.git{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.2s;
+}
+.git:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.in{
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.in:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.x{
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.x:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.insta{
+    border: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.insta:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.ytb{
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.ytb:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.link{
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.link:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(204, 203, 203);
+    margin-top: -80px;
+    border-radius: 10px;
+}
+.kil{
+    border-left: 2px solid rgb(204, 203, 203);
+    border-right: 2px solid rgb(204, 203, 203);
+    padding-left: 65px;
+    padding-right: 65px;
+}
+/* .rew{
+
+} */
+.lorem{
+    text-align: left;
+    
+}
+.div{
+    margin-top: -100px;
+    padding: 10px;
+}
+.help{
+    text-align: left;
+    font-size: 30px;
+    margin-top: -10px;
+}
+.orqa{
+    background-color: rgb(233, 233, 233);
+    margin: 0px 10px 0px 10px;
+    margin-top: -55px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(94, 101, 130);
+    color: white;
+    width: 530px;
+    height: 50px;
+    margin: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    
+}
+.footer:hover{
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(94, 101, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 6vh;
+}
